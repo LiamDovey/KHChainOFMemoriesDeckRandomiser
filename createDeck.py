@@ -3,7 +3,7 @@ import json
 import collections.abc as col
 import random
 import copy
-
+import sys
 
 def deep_update(source, overrides):
     """
@@ -17,7 +17,14 @@ def deep_update(source, overrides):
         else:
             source[key] = overrides[key]
     return source
-
+cwd = os.getcwd()
+name = 'Decks'
+if len(sys.argv) > 1:
+    name = sys.argv[1] + '.txt'
+newpath = cwd + '\\decks\\'
+if not os.path.exists(newpath):
+    os.makedirs(newpath)
+filepath = cwd + '\\decks\\' + name + '.txt'
 c = open('cardDB.json')
 p = open('playerStats.json')
 cardDB = json.load(c)
@@ -47,7 +54,7 @@ cont = True
 cardsLeft = totalCards
 cardsSelected = 0
 deckValue = 0
-while cont :
+while cont:
     randNum = random.randint(1, cardsLeft)
     cardSelected = 0
     cardFound = False
@@ -82,16 +89,26 @@ while cont :
                 lowestCost = cardbase[card][val]['COST']
             if (cardbase[card][val]['COST'] + deckValue) > totalCP:
                 dupCardBase[card].pop(val)
+        if len(dupCardBase[card]) == 0:
+            dupCardBase.pop(card)
     cardbase = copy.deepcopy(dupCardBase)
-    if cardsSelected == maxDeckSize or cardsLeft == 0 or deckValue + lowestCost > totalCP:
+    if cardsSelected >= maxDeckSize or cardsLeft <= 0 or deckValue + lowestCost > totalCP or len(cardbase) == 0:
         cont = False
 sortedDeck = {}
 for card in deck:
     for val in sorted(deck[card]):
         numCards = deck[card][val]['NUMBER']
         costCard = deck[card][val]['COST']
-        update = {card : {val : {'NUMBER' : numCards, 'COST' : costCard}}}
+        update = {card : {val : numCards}}
         deep_update(sortedDeck, update)
-print(sortedDeck)
-print('Deck Value: ', deckValue)
-print('Number of Cards: ', cardsSelected)
+
+f = open(filepath, 'a')
+f.write(name + '\n')
+f.write('Deck Value: ' + str(deckValue) + '\n')
+f.write('Deck Value: ' + str(deckValue) + '\n')
+f.write('Number of Cards: ' + str(cardsSelected) + '\n')
+for card in sortedDeck:
+    f.write(card + ':\n')
+    for val in sortedDeck[card]:
+        f.write(val + ': ' + str(sortedDeck[card][val]) + '\n')
+f.close()
