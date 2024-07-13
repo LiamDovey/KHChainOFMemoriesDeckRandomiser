@@ -20,7 +20,7 @@ def deep_update(source, overrides):
 cwd = os.getcwd()
 name = 'Decks'
 if len(sys.argv) > 1:
-    name = sys.argv[1] + '.txt'
+    name = sys.argv[1]
 newpath = cwd + '\\decks\\'
 if not os.path.exists(newpath):
     os.makedirs(newpath)
