@@ -111,3 +111,4 @@ for card in sortedDeck:
     for val in sortedDeck[card]:
         f.write(val + ': ' + str(sortedDeck[card][val]) + '\n')
 f.close()
+Print('Grats on your shiny new deck!')
