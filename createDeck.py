@@ -105,7 +105,6 @@ for card in deck:
 f = open(filepath, 'a')
 f.write(name + '\n')
 f.write('Deck Value: ' + str(deckValue) + '\n')
-f.write('Deck Value: ' + str(deckValue) + '\n')
 f.write('Number of Cards: ' + str(cardsSelected) + '\n')
 for card in sortedDeck:
     f.write(card + ':\n')
