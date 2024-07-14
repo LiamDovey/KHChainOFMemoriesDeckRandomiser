@@ -1,705 +1,705 @@
 {
     "SORA": {
         "MAX" : 99,
-        "CP" : 300,
+        "CP" : 325,
         "WORLDDECKS": {
         }
     },
     "KINGDOM KEY": {
-      "1": 2,
-      "2": 2,
-      "3": 2,
-      "4": 2,
-      "5": 1,
-      "6": 2,
-      "7": 1,
-      "8": 1,
-      "9": 0,
-      "0": 2
+      "1": { "QUANT" : 2, "PREM" : 1 },
+      "2": { "QUANT" : 2, "PREM" : 0 },
+      "3": { "QUANT" : 2, "PREM" : 0 },
+      "4": { "QUANT" : 2, "PREM" : 0 },
+      "5": { "QUANT" : 1, "PREM" : 0 },
+      "6": { "QUANT" : 2, "PREM" : 0 },
+      "7": { "QUANT" : 1, "PREM" : 0 },
+      "8": { "QUANT" : 1, "PREM" : 1 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 2, "PREM" : 0 }
     },
     "THREE WISHES": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "CRABCLAW": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "PUMPKINHEAD": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "FAIRY HARP": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "WISHING STAR": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "SPELLBINDER": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "METAL CHOCOBO": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "OLYMPIA": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "LIONHEART": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "LADY LUCK": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 1, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "DIVINE ROSE": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "OATHKEEPER": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "OBLIVION": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "ULTIMA WEAPON": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "DIAMOND DUST": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "ONE-WINGED ANGEL": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "STAR SEEKER": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "MONOCHROME": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "FOLLOW THE WIND": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "HIDDEN DRAGON": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "PHOTON DEBUGGER": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "BOND OF FLAME": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "FIRE": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 1, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "BLIZZARD": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 1,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 1, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "THUNDER": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "CURE": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 1,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 1, "PREM" : 1 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "GRAVITY": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "STOP": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "AERO": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "SIMBA": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 1,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 1, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "GENIE": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "BAMBI": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "DUMBO": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "TINKER BELL": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "MUSHU": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "CLOUD": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "POTION": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 1,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 1, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "HI-POTION": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "MEGA-POTION": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "ETHER": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "MEGA-ETHER": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "ELIXIR": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "MEGALIXIR": {
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "0": 0
+      "1": { "QUANT" : 0, "PREM" : 0 },
+      "2": { "QUANT" : 0, "PREM" : 0 },
+      "3": { "QUANT" : 0, "PREM" : 0 },
+      "4": { "QUANT" : 0, "PREM" : 0 },
+      "5": { "QUANT" : 0, "PREM" : 0 },
+      "6": { "QUANT" : 0, "PREM" : 0 },
+      "7": { "QUANT" : 0, "PREM" : 0 },
+      "8": { "QUANT" : 0, "PREM" : 0 },
+      "9": { "QUANT" : 0, "PREM" : 0 },
+      "0": { "QUANT" : 0, "PREM" : 0 }
     },
     "SHADOW": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "SOLDIER": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "POWERWILD": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "BOUNCYWILD": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "LARGE BODY": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "FAT BANDIT": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "SEA NEON": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "BANDIT": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "PIRATE": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "RED NOCTURNE": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "BLUE RHAPSODY": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "YELLOW OPERA": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "GREEN REQUIEM": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "WIZARD": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "AIR SOLDIER": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "BARREL SPIDER": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "WIGHT KNIGHT": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "AIR PIRATE": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "GARGOYLE": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "SEARCH GHOST": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "AQUATANK": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "SCREWDRIVER": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "WYVERN": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "DEFENDER": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "WHITE MUSHROOM": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "BLACK FUNGUS": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "CREEPER PLANT": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "TORNADO STEP": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "CRESCENDO": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "NEOSHADOW": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "GUARD ARMOR": {
-      "x": 1
+      "x": { "QUANT" :  1, "PREM" : 0 }
     },
     "HADES": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "TRICKMASTER": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "JAFAR": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "URSULA": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "OOGIE BOOGIE": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "PARASITE CAGE": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "HOOK": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "DRAGON MALIFICENT": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "DARKSIDE": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "RIKU": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "CARD SOLDIER": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "ANSEM": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "XEMNAS": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "XIGBAR": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "XALDIN": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "VEXEN": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "LEXAEUS": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "ZEXION": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "SAI'X": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "AXEL": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "DEMYX": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "LUXORD": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "MARLUXIA": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "LARXENE": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     },
     "ROXAS": {
-      "x": 0
+      "x": { "QUANT" :  0, "PREM" : 0 }
     }
   }
   

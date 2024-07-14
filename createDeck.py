@@ -37,15 +37,16 @@ deck = {}
 totalCards = 0
 totalValue = 0
 
-
 #Create the cardbase
 for card in playerStats:
     if card != 'SORA':
         for val in playerStats[card]:
-            if playerStats[card][val] > 0:
-                numCards = playerStats[card][val]
+            if playerStats[card][val]['QUANT'] > 0:
+                numCards = playerStats[card][val]['QUANT']
+                premCards = playerStats[card][val]['PREM']
                 costCard = cardDB[card][val]
-                update = {card : {val : {'NUMBER' : numCards, 'COST' : costCard}}}
+                premCost = cardDB[card].get('1') 
+                update = {card : {val : {'NUMBER' : numCards, 'COST' : costCard, "PREM" : premCards, "PREMCOST" : premCost}}}
                 totalCards = totalCards + numCards
                 totalValue = totalValue + costCard
                 deep_update(cardbase, update)
@@ -71,7 +72,11 @@ while cont:
                 cardsLeft = cardsLeft - 1
                 cardsSelected = cardsSelected + 1
                 numCards = playerStats[card][val]
-                costCard = cardDB[card][val]
+                if cardbase[card][val]['PREM'] > deck.get(card, {}).get(val, {}).get('NUMBER', 0):
+                    costCard = cardbase[card][val]['PREMCOST']
+                    cardbase[card][val]['PREM'] = cardbase[card][val]['PREM'] - 1
+                else:
+                    costCard = cardbase[card][val]['COST']
                 deckValue = deckValue + costCard
                 if deck.get(card, {}).get(val):
                     deck[card][val]['NUMBER'] = deck[card][val]['NUMBER'] + 1
@@ -85,9 +90,10 @@ while cont:
     cardbase = copy.deepcopy(dupCardBase)
     for card in cardbase:
         for val in cardbase[card]:
-            if lowestCost == 0 or lowestCost > cardbase[card][val]['COST']:
-                lowestCost = cardbase[card][val]['COST']
-            if (cardbase[card][val]['COST'] + deckValue) > totalCP:
+            cardVal = cardbase[card][val]['PREMCOST'] if cardbase[card][val]['PREM'] > 0 else cardbase[card][val]['COST']
+            if lowestCost == 0 or lowestCost > cardVal:
+                lowestCost = cardVal
+            if (cardVal + deckValue) > totalCP:
                 dupCardBase[card].pop(val)
         if len(dupCardBase[card]) == 0:
             dupCardBase.pop(card)
