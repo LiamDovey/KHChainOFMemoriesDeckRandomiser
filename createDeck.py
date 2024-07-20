@@ -105,7 +105,7 @@ for card in deck:
     for val in sorted(deck[card]):
         numCards = deck[card][val]['NUMBER']
         costCard = deck[card][val]['COST']
-        update = {card : {val : numCards}}
+        update = {card : {val : {"NUM" : numCards, "COST" : costCard}}}
         deep_update(sortedDeck, update)
 
 f = open(filepath, 'a')
@@ -115,6 +115,6 @@ f.write('Number of Cards: ' + str(cardsSelected) + '\n')
 for card in sortedDeck:
     f.write(card + ':\n')
     for val in sortedDeck[card]:
-        f.write(val + ': ' + str(sortedDeck[card][val]) + '\n')
+        f.write(val + ': ' + str(sortedDeck[card][val]['NUM']) + ', Cost: ' + str(sortedDeck[card][val]['COST']) + '\n')
 f.close()
 print('Grats on your shiny new deck!')
